@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğal Şeker Ürünleri</title>
+    <style>
+        .pagination {
+         text-align: center;
+        margin: 20px 0;
+        }
+
+        .page-link {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 0 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        color: #333;
+        text-decoration: none;
+        background-color: #fff;
+        transition: background-color 0.3s;
+        }
+
+        .page-link:hover {
+         background-color: #ff7f50;
+        color: white;
+        }
+
+        .page-link.active {
+         background-color: #ff7f50;
+         color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 15px;
+            width: calc(100% - 40px);
+            max-width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product-description {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color: #ff7f50;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .instagram-logo {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        @media (min-width: 768px) {
+            .product-card {
+                width: calc(50% - 40px);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .product-card {
+                width: calc(25% - 40px);
+            }
+        }
+        .link{
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Doğal ve Ev Yapımı Sağlıklı Şeker Ürünleri</h1>
+    </header>
+
+    <nav>
+        <a href="#products">Ürünler</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+
+    <div class="container" id="products">
+
+        <div class="product-card">
+            <img src="images/img7.jpg" alt="Ürün 2">
+            <h2 class="product-title">Brawl Stars-Leon Şekeri</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img8.jpg" alt="Ürün 2">
+            <h2 class="product-title">Papatya Şekeri</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img9.jpg" alt="Ürün 2">
+            <h2 class="product-title">Pembe Kelebekli Şeker</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img10.jpg" alt="Ürün 2">
+            <h2 class="product-title">Renkli Kanatlı Şekerler</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img11.jpg" alt="Ürün 2">
+            <h2 class="product-title">Pembe Kanatlı Şekerler</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img12.jpg" alt="Ürün 2">
+            <h2 class="product-title">Kar Küresi Şekeri</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img13.jpg" alt="Ürün 2">
+            <h2 class="product-title">Gelincik Tarlası</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img14.jpg" alt="Ürün 2">
+            <h2 class="product-title">Kelebeğin Rüyası</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/img2.jpg" alt="Ürün 1">
+            <h2 class="product-title">İsteğe Göre Şekerler</h2>
+            <p class="product-description">Lezzetli doğal el yapımı şeker.</p>
+        </div>
+
+        <div class="product-card">
+            <h2 class="product-title" style="color: red;">İsteğe Göre Şeker Tasarımı ve Sipariş İçin Bize Ulaşın</h2>
+        </div>
+    </div>
+
+    <div class="pagination">
+        <a href="index.html" class="page-link">1</a>
+        <a href="page2.html" class="page-link active">2</a>
+    </div>
+    
+
+    <footer id="contact">
+        <p><strong>İletişim</strong></p>
+        <p>Çanakkale-Kepez</p>
+        <p>İnstagram: <a href="https://www.instagram.com/masterchefturkiye/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="instagram-logo">Burcunun Sağlıklı Şekerleri</a></p>
+        <p>Sipariş için DM</p>
+    </footer>
+</body>
+</html>
